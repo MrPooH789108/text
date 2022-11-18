@@ -1,0 +1,7 @@
+https://docs.bmc.com/docs/brid21304/files/1083325179/1083325186/1/1648553193708/21304_ITSM_Platform_Images.txt
+https://docs.bmc.com/docs/brid21304/files/1083325179/1083325183/1/1648553193639/21304_ITSM_Smartapps_Images.txt
+https://docs.bmc.com/docs/brid21304/files/1083325179/1083325187/1/1648553193743/21304_ITSM_Pipeline_Images.txt
+https://docs.bmc.com/docs/brid21304/files/1083325179/1083325181/1/1648553193592/21304_Support_Assistant_Tool_Images.txt
+https://docs.bmc.com/docs/brid21304/files/1083325179/1083325184/1/1648553193662/21304_ITSM_Smart_Reporting_Update_Images.txt
+https://docs.bmc.com/docs/brid21304/files/1083325179/1083325185/1/1648553193685/21304_ITSM_Smart_Reporting_Fresh_Images.txt
+https://docs.bmc.com/docs/brid21304/files/1083325179/1083325180/6/1656496606252/all_images.txt
