@@ -12,3 +12,7 @@ ssl-default-bind-ciphers ECDH+AESGCM:ECDH+CHACHA20:DH+AESGCM:ECDH
 3. openssl s_client -connect 192.168.1.50:443 command ตรวจสอบ version tls
 
 4. openssl x509 -in /etc/pki/tls/certs/ddg-logstash.pem  -text -noout command ตรวจสอบข้อมูลภายใน cert
+
+
+142960 ลองเช็ค stop kubectl 
+วันก่อนที่มีเปลี่ยน mode haproxy บอกให้เปลี่ยนกลับไปเป็น legacy
