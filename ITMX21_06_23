@@ -1,0 +1,48 @@
+ข้อแรก เครื่อง 10.148.195.50
+
+Step1  
+
+ 
+
+เช็ค Container บน Docker 
+
+Command: docker ps 
+
+ 
+
+Step2 
+
+Stop และ Disable Docker 
+
+Command: Systemctl Stop docker 
+
+          Systemctl disable docker 
+
+ 
+
+Step3 
+
+แก้ไขไฟล์ vi /etc/sysctl.d/99-kubernetes-cri.conf 
+
+net.ipv4.ip_forward=0 แล้วเซฟ 
+
+หลังจากนั้นพิม command sysctl –system 
+
+ 
+
+Step4  
+
+ตรวจสอบ sysctl -a | grep net.ipv4.ip_forward 
+
+
+ข้อสอง ทุกเครื่องที่ติด issue  เครื่อง 10.148.195.50,52,53,54,55,56,57
+
+
+Step1
+sed -i 's/PermitRootLogin yes/PermitRootLogin no/g' /etc/ssh/sshd_config
+
+Step2
+systemctl restart sshd
+
+Step3
+sshd -T | grep permitrootlog
